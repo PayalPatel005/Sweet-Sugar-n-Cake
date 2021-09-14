@@ -1,0 +1,35 @@
+.social-media{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height:4rem;
+  justify-content: space-around;
+  width:30%;
+}
+
+.foot-link{
+  width:30%;
+  font-size: 16px;
+  padding-left: 5%;
+  font-weight: 500;
+}
+
+.footer {
+  padding-bottom: 7rem;
+  height: 90px;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  display: flex;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.footer p{
+  text-align: center;
+}
